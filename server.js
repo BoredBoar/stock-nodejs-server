@@ -12,7 +12,7 @@ io.on('connection', function(socket){
   socket.on('custom-message', function(data) {
     //do something here
   });
-}
+});
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
